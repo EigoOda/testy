@@ -9,4 +9,5 @@ jobs:
     steps:
       - name: Hello world
         uses: dubs11kt/sample-action@v1
-        with: 'dubs11kt'
+        with:
+          who-to-greet: 'dubs11kt'
