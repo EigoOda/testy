@@ -1,0 +1,11 @@
+name: Hello world
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world
+        uses: dubs11kt/sample-action@v1
