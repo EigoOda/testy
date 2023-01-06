@@ -2,7 +2,7 @@ name: Hello world
 on: [push]
 jobs:
   hello_world_job:
-    if: ${{ startsWith(github.head_ref, 'thisis-') }}
+    if: ${{ startsWith(github.head_ref, 'test-') }}
     runs-on: ubuntu-latest
     name: test
     steps:
