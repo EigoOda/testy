@@ -1,5 +1,5 @@
 name: Hello world
-on: [pull_request]
+on: [push]
 jobs:
   hello_world_job:
     if: ${{ startsWith(github.head_ref, 'thisis-') }}
