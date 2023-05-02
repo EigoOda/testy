@@ -1,5 +1,5 @@
 ---
-name: empty template
+name: 'empty template'
 title: ''
 labels: ''
 assignees: ''
