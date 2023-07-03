@@ -10,18 +10,22 @@
   // "ignorePaths": [".github/workflows/*"],
   "packageRules": [
     {
+      "groupName": "main",
       "matchBaseBranches": ["main"],
       "matchPaths": ["**/main.yaml"]
     },
     {
+      "groupName": "service-a",
       "matchBaseBranches": ["service-a"],
       "matchPaths": ["**/service-a.yaml"]
     },
     {
+      "groupName": "service-b",
       "matchBaseBranches": ["service-b"],
       "matchPaths": ["**/service-b.yaml"]
     },
     {
+      "groupName": "service-c",
       "matchBaseBranches": ["service-c"],
       "matchPaths": ["**/service-c.yaml"]
     }
