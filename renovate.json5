@@ -10,19 +10,19 @@
   "packageRules": [
     {
       "baseBranches": ["main"],
-      "matchPaths": ["main.yaml"]
+      "matchPaths": ["**/main.yaml"]
     },
     {
       "baseBranches": ["service-a"],
-      "matchPaths": ["service-a.yaml"]
+      "matchPaths": ["**/service-a.yaml"]
     },
     {
       "baseBranches": ["service-b"],
-      "matchPaths": ["service-b.yaml"]
+      "matchPaths": ["**/service-b.yaml"]
     },
     {
       "baseBranches": ["service-c"],
-      "matchPaths": ["service-c.yaml"]
+      "matchPaths": ["**/service-c.yaml"]
     }
   ]
 }
