@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
-  /* "enabledManagers": ["github-actions"], */
+  "enabledManagers": ["github-actions"],
   "labels": ["dependencies"],
   "packageRules": [
     {
