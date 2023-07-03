@@ -5,25 +5,21 @@
   "labels": ["dependencies"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["github-actions"],
       "matchBaseBranches": ["main"],
       "labels": ["GHA"],
       "matchFiles": [".github/workflows/main.yaml"]
     },
     {
-      "matchPackagePatterns": ["github-actions"],
       "matchBaseBranches": ["service-a"],
       "labels": ["GHA"],
       "matchFiles": [".github/workflows/main.yaml"]
     },
     {
-      "matchPackagePatterns": ["github-actions"],
       "matchBaseBranches": ["service-b"],
       "labels": ["GHA"],
       "matchFiles": [".github/workflows/main.yaml"]
     },
     {
-      "matchPackagePatterns": ["github-actions"],
       "matchBaseBranches": ["service-c"],
       "labels": ["GHA"],
       "matchFiles": [".github/workflows/main.yaml"]
