@@ -9,28 +9,28 @@
       "updateTypes": ["manager"],
       "baseBranches": ["main"],
       "labels": ["GHA"],
-      "matchFiles": [".github/workflows/main.yaml"]
+      "matchPaths": [".github/workflows/main.yaml"]
     },
     {
       "matchManagers": ["github-actions"],
       "updateTypes": ["manager"],
       "baseBranches": ["service-a"],
       "labels": ["GHA"],
-      "matchFiles": [".github/workflows/service-a.yaml"]
+      "matchPaths": [".github/workflows/service-a.yaml"]
     },
     {
       "matchManagers": ["github-actions"],
       "updateTypes": ["manager"],
       "baseBranches": ["service-b"],
       "labels": ["GHA"],
-      "matchFiles": [".github/workflows/service-b.yaml"]
+      "matchPaths": [".github/workflows/service-b.yaml"]
     },
     {
       "matchManagers": ["github-actions"],
       "updateTypes": ["manager"],
       "baseBranches": ["service-c"],
       "labels": ["GHA"],
-      "matchFiles": [".github/workflows/service-c.yaml"]
+      "matchPaths": [".github/workflows/service-c.yaml"]
     }
   ]
 }
