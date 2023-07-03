@@ -1,28 +1,32 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
-  "enabledManagers": ["github-actions"],
+  /* "enabledManagers": ["github-actions"], */
   "labels": ["dependencies"],
   "packageRules": [
     {
+      "matchManagers": ["github-actions"],
       "updateTypes": ["manager"],
       "baseBranches": ["main"],
       "labels": ["GHA"],
       "matchFiles": [".github/workflows/main.yaml"]
     },
     {
+      "matchManagers": ["github-actions"],
       "updateTypes": ["manager"],
       "baseBranches": ["service-a"],
       "labels": ["GHA"],
       "matchFiles": [".github/workflows/service-a.yaml"]
     },
     {
+      "matchManagers": ["github-actions"],
       "updateTypes": ["manager"],
       "baseBranches": ["service-b"],
       "labels": ["GHA"],
       "matchFiles": [".github/workflows/service-b.yaml"]
     },
     {
+      "matchManagers": ["github-actions"],
       "updateTypes": ["manager"],
       "baseBranches": ["service-c"],
       "labels": ["GHA"],
