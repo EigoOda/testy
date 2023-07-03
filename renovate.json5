@@ -7,7 +7,7 @@
   "enabledManagers": ["github-actions"],
   "labels": ["dependencies"],
   "baseBranches": ["main", "service-a", "service-b", "service-c"],
-  "ingorePaths": [".github/workflows/*"],
+  "ignorePaths": [".github/workflows/*"],
   "packageRules": [
     {
       "groupName": "main",
