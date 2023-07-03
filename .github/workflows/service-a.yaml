@@ -1,0 +1,9 @@
+name: service-a
+on: [push]
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    name: service-a
+    steps:
+      - name: test
+        run: echo ${{ github.head_ref }}
