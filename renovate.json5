@@ -1,6 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
+  "extends": [
+    "config:base",
+     ":prHourlyLimitNone"
+   ],
   "enabledManagers": ["github-actions"],
   "labels": ["dependencies"],
   "baseBranches": ["main", "service-a", "service-b", "service-c"],
