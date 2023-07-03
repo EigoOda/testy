@@ -4,28 +4,32 @@
     "config:base",
      ":prHourlyLimitNone"
    ],
-  "enabledManagers": ["github-actions"],
+  // "enabledManagers": ["github-actions"],
   "labels": ["dependencies"],
-  // "baseBranches": ["main", "service-a", "service-b", "service-c"],
+  "baseBranches": ["main", "service-a", "service-b", "service-c"],
   // "ignorePaths": [".github/workflows/*"],
   "packageRules": [
     {
       "groupName": "main",
+      "matchManagers": ["github-actions"],
       "matchBaseBranches": ["main"],
       "matchPaths": ["**/main.yaml"]
     },
     {
       "groupName": "service-a",
+      "matchManagers": ["github-actions"],
       "matchBaseBranches": ["service-a"],
       "matchPaths": ["**/service-a.yaml"]
     },
     {
       "groupName": "service-b",
+      "matchManagers": ["github-actions"],
       "matchBaseBranches": ["service-b"],
       "matchPaths": ["**/service-b.yaml"]
     },
     {
       "groupName": "service-c",
+      "matchManagers": ["github-actions"],
       "matchBaseBranches": ["service-c"],
       "matchPaths": ["**/service-c.yaml"]
     }
