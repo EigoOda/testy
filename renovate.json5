@@ -3,6 +3,7 @@
   "extends": ["config:base"],
   "enabledManagers": ["github-actions"],
   "labels": ["dependencies"],
+  "baseBranches": ["main", "service-a", "service-b", "service-c"],
   "packageRules": [
     {
       "baseBranches": ["main"],
