@@ -12,7 +12,7 @@
     {
       "groupName": "main",
       "matchBaseBranches": ["main"],
-      "matchFiles": ["main.yaml"]
+      "matchPaths": ["**/main.yaml"]
     },
     {
       "groupName": "service-a",
