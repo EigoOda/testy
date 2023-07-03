@@ -5,32 +5,20 @@
   "labels": ["dependencies"],
   "packageRules": [
     {
-      "matchManagers": ["github-actions"],
-      "updateTypes": ["manager"],
       "baseBranches": ["main"],
-      "labels": ["GHA"],
-      "matchPaths": [".github/workflows/main.yaml"]
+      "matchFiles": ["main.yaml"]
     },
     {
-      "matchManagers": ["github-actions"],
-      "updateTypes": ["manager"],
       "baseBranches": ["service-a"],
-      "labels": ["GHA"],
-      "matchPaths": [".github/workflows/service-a.yaml"]
+      "matchFiles": ["service-a.yaml"]
     },
     {
-      "matchManagers": ["github-actions"],
-      "updateTypes": ["manager"],
       "baseBranches": ["service-b"],
-      "labels": ["GHA"],
-      "matchPaths": [".github/workflows/service-b.yaml"]
+      "matchFiles": ["service-b.yaml"]
     },
     {
-      "matchManagers": ["github-actions"],
-      "updateTypes": ["manager"],
       "baseBranches": ["service-c"],
-      "labels": ["GHA"],
-      "matchPaths": [".github/workflows/service-c.yaml"]
+      "matchFiles": ["service-c.yaml"]
     }
   ]
 }
