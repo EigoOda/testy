@@ -6,6 +6,28 @@
    ],
   "enabledManagers": ["github-actions"],
   "labels": ["dependencies"],
-  "baseBranches": ["main"],
-  "matchPaths": ["**/main.yaml"]
+  "baseBranches": ["main", "service-a", "service-b", "service-c"],
+  "ingorePaths": [".github/workflows/*"],
+  "packageRules": [
+    {
+      "groupName": "main",
+      "matchBaseBranches": ["main"],
+      "matchFiles": ["main.yaml"]
+    },
+    {
+      "groupName": "service-a",
+      "matchBaseBranches": ["service-a"],
+      "matchFiles": ["service-a.yaml"]
+    },
+    {
+      "groupName": "service-b",
+      "matchBaseBranches": ["service-b"],
+      "matchFiles": ["service-b.yaml"]
+    },
+    {
+      "groupName": "service-c",
+      "matchBaseBranches": ["service-c"],
+      "matchFiles": ["service-c.yaml"]
+    }
+  ]
 }
