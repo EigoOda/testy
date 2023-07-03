@@ -17,17 +17,17 @@
     {
       "groupName": "service-a",
       "matchBaseBranches": ["service-a"],
-      "matchFiles": ["service-a.yaml"]
+      "matchPaths": ["**/service-a.yaml"]
     },
     {
       "groupName": "service-b",
       "matchBaseBranches": ["service-b"],
-      "matchFiles": ["service-b.yaml"]
+      "matchPaths": ["**/service-b.yaml"]
     },
     {
       "groupName": "service-c",
       "matchBaseBranches": ["service-c"],
-      "matchFiles": ["service-c.yaml"]
+      "matchPaths": ["**/service-c.yaml"]
     }
   ]
 }
