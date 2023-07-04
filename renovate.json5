@@ -12,30 +12,30 @@
       "description": "Disable everything before selectively enabling",
       "matchPackageNames": ["*"],
       "enabled": false
-    },
-    {
-      "enabled": true,
-      "groupName": "main",
-      "matchBaseBranches": ["main"],
-      "matchPaths": ["**/main.yaml"]
-    },
-    {
-      "enabled": true,
-      "groupName": "service-a",
-      "matchBaseBranches": ["service-a"],
-      "matchPaths": ["**/service-a.yaml"]
-    },
-    {
-      "enabled": true,
-      "groupName": "service-b",
-      "matchBaseBranches": ["service-b"],
-      "matchPaths": ["**/service-b.yaml"]
-    },
-    {
-      "enabled": true,
-      "groupName": "service-c",
-      "matchBaseBranches": ["service-c"],
-      "matchPaths": ["**/service-c.yaml"]
     }
+    /* { */
+    /*   "enabled": true, */
+    /*   "groupName": "main", */
+    /*   "matchBaseBranches": ["main"], */
+    /*   "matchPaths": ["**/main.yaml"] */
+    /* }, */
+    /* { */
+    /*   "enabled": true, */
+    /*   "groupName": "service-a", */
+    /*   "matchBaseBranches": ["service-a"], */
+    /*   "matchPaths": ["**/service-a.yaml"] */
+    /* }, */
+    /* { */
+    /*   "enabled": true, */
+    /*   "groupName": "service-b", */
+    /*   "matchBaseBranches": ["service-b"], */
+    /*   "matchPaths": ["**/service-b.yaml"] */
+    /* }, */
+    /* { */
+    /*   "enabled": true, */
+    /*   "groupName": "service-c", */
+    /*   "matchBaseBranches": ["service-c"], */
+    /*   "matchPaths": ["**/service-c.yaml"] */
+    /* } */
   ]
 }
