@@ -12,7 +12,7 @@
       "description": "Disable everything before selectively enabling",
       "matchPackageNames": ["*"],
       "enabled": false
-    }
+    },
     {
       "enabled": true,
       "groupName": "main",
