@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: main
     steps:
-      - uses: actions/checkout@v2
-      - name: test
-        run: |
-          echo ${{ github.head_ref }}
+      - uses: actions/checkout@v4
+
+      - name: Display directories
+        run: la -la
