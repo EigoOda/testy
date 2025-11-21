@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: main
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Display directories
         run: ls -la
